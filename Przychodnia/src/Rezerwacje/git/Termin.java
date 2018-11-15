@@ -36,6 +36,13 @@ public class Termin {
 	public void setPacjent(Pacjent pacjent) {
 		this.pacjent = pacjent;
 	}
+
+	@Override
+	public String toString() {
+		return "Termin [data: " + data + ", lekarz: " + lekarz + ", pacjent: " + pacjent + "]";
+	}
+	
+	
 	
 
 }

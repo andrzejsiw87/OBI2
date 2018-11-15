@@ -12,6 +12,13 @@ public class Pacjent {
 		return imie;
 	}
 
+	@Override
+	public String toString() {
+		return "Pacjent [imie: " + imie + "]";
+	}
+	
+	
+
 
 	
 

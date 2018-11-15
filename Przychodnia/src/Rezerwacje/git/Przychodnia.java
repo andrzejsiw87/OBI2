@@ -15,6 +15,8 @@ public interface Przychodnia {
 	public void dodaj(Termin termin);
 	public Termin dodajTermin(Pracownik pracownik, LocalDateTime data);
 	
+	
+	
 }
 
 
